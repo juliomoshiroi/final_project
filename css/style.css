@@ -1,0 +1,116 @@
+ /* .container{
+    padding: 16px;
+    border: 1px solid #000000;
+}
+#round {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: aqua;
+} */
+
+/* p{
+font-size:20px;
+}
+ .box1 {
+    width: 500px;
+    height: 200px;
+    background: greenyellow;
+    border: 7px solid orange;
+}
+.box2{
+    width:500px;
+    height:200px ;
+    border:7px solid orange;
+    background:greenyellow; 
+    border-radius: 5%;
+}
+h1{
+    font-size: 25 px;
+    color: rgb(148, 121, 67);
+}
+#layout{
+    font-size: 14px;
+}  */
+body{
+    background-color:aliceblue;
+}
+h1{
+    font-size: 20px;
+    background-color:gold ;
+    border: 2px;
+    width: 705px;
+}
+/* .form{
+    font-size: 15px;
+    width: 400px; */
+/* } */
+.wrap{
+	background:greenyellow;
+	width: 705px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background:gold ;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background:yellowgreen;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background:yellow;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 700px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: orange;
+	float: left;	
+	width: 25%;
+	height: 700px;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background:darkgrey;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+.content{
+    padding: 10px;
+}
